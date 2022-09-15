@@ -1,0 +1,20 @@
+[
+  { 
+    "name": "Cormac McCarthy",
+    "birthdate": "07/20/1933",
+    "kwnfor": "He is well known for his graphic depictions of violence and his unique writing style, recognizable by a sparse use of punctuation and attribution.",
+    "id": 1
+  },
+  { 
+    "name": "Margaret Atwood",
+    "birthdate": "11/18/1939",
+    "kwnfor": "Atwood's works encompass a variety of themes including gender and identity, religion and myth, the power of language, climate change, and power politics. Many of her poems are inspired by myths and fairy tales which interested her from a very early age.",
+    "id": 2
+  },
+  { 
+    "name": "Nalo Hopkinson",
+    "birthdate": "12/20/1960",
+    "kwnfor": "Her novels and short stories such as those in her collection Skin Folk often draw on Caribbean history and language, and its traditions of oral and written storytelling.",
+    "id": 3
+  }
+]

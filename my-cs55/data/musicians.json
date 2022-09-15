@@ -1,0 +1,20 @@
+[
+  { 
+    "name": "Jimi Hendrix",
+    "birthdate": "11/27/1942",
+    "kwnfor": "The Rock and Roll Hall of Fame describes him as 'arguably the greatest instrumentalist in the history of rock music.'"
+    "id": 1
+  },
+  { 
+    "name": "Peter Frampton",
+    "birthdate": "04/22/1950",
+    "kwnfor": "He was previously associated with the rock bands Humble Pie and the Herd. As a solo artist, he has released several albums, including his international breakthrough album, the live release Frampton Comes Alive!, which spawned several hit singles and has earned 8× Platinum in the United States to date."
+    "id": 2
+  },
+  { 
+    "name": "bbno$",
+    "birthdate": "06/30/1995",
+    "kwnfor": "He is best known for his collaborations with rapper Yung Gravy as well as his 2019 single 'Lalala' with producer Y2K, which has reached over 800 million plays on the streaming service Spotify."
+    "id": 3
+  }
+]
