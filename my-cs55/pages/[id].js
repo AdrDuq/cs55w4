@@ -1,10 +1,10 @@
-import Head from 'next/head';
+import Link from 'next/link';
 import Layout from '../components/layout';
 import { getAllIds, getData } from '../lib/data';
 
 export async function getStaticProps({ params }) {
   const itemData = await getData(params.id);
-  // console.log(itemData);
+  
   return {
     props: {
       itemData
@@ -24,12 +24,29 @@ export default function Entry({ itemData }) {
   return (
     <Layout>
       <article className="card col-6">
+        <h2>Person Detail</h2>
         <div className="card-body">
           <h5 className="card-title">{itemData.name}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">{itemData.birthdate}</h6>
+          <h6 className="card-subtitle mb-2 text-muted">{itemData.occup}</h6>
+          <p className="card-text">{itemData.birthdate}</p>
           <p className="card-text">{itemData.kwnfor}</p>
         </div>
       </article>
+      <div className="list-group col-6">
+        {itemData.related ? 
+          <h2>Related Famous People</h2> : null
+        }
+        {itemData.related ? 
+          itemData.related.map(
+            ({ id, name }) => (
+              <Link key={id} href={`/${id}`}>
+                <a className="list-group-item list-group-item-action">{name}</a>
+              </Link>
+            )
+          )
+          : null
+        }
+      </div>
     </Layout>
   );
 }

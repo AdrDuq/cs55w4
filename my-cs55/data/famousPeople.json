@@ -1,0 +1,44 @@
+[
+  { 
+    "name": "Cormac McCarthy",
+    "birthdate": "07/20/1933",
+    "occup": "Author",
+    "kwnfor": "He is well known for his graphic depictions of violence and his unique writing style, recognizable by a sparse use of punctuation and attribution.",
+    "id": 1
+  },
+  { 
+    "name": "Margaret Atwood",
+    "birthdate": "11/18/1939",
+    "occup": "Author",
+    "kwnfor": "Atwood's works encompass a variety of themes including gender and identity, religion and myth, the power of language, climate change, and power politics. Many of her poems are inspired by myths and fairy tales which interested her from a very early age.",
+    "id": 2
+  },
+  { 
+    "name": "Nalo Hopkinson",
+    "birthdate": "12/20/1960",
+    "occup": "Author",
+    "kwnfor": "Her novels and short stories such as those in her collection Skin Folk often draw on Caribbean history and language, and its traditions of oral and written storytelling.",
+    "id": 3
+  },
+  { 
+    "name": "Jimi Hendrix",
+    "birthdate": "11/27/1942",
+    "occup": "Musician",
+    "kwnfor": "The Rock and Roll Hall of Fame describes him as 'arguably the greatest instrumentalist in the history of rock music.'",
+    "id": 4
+  },
+  { 
+    "name": "Peter Frampton",
+    "birthdate": "04/22/1950",
+    "occup": "Musician",
+    "kwnfor": "He was previously associated with the rock bands Humble Pie and the Herd. As a solo artist, he has released several albums, including his international breakthrough album, the live release Frampton Comes Alive!, which spawned several hit singles and has earned 8× Platinum in the United States to date.",
+    "id": 5
+  },
+  { 
+    "name": "bbno$",
+    "birthdate": "06/30/1995",
+    "occup": "Musician",
+    "kwnfor": "He is best known for his collaborations with rapper Yung Gravy as well as his 2019 single 'Lalala' with producer Y2K, which has reached over 800 million plays on the streaming service Spotify.",
+    "id": 6
+  }
+]
